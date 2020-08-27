@@ -52,6 +52,9 @@
     <Compile Include="FormProblemSelect.Designer.cs">
       <DependentUpon>FormProblemSelect.cs</DependentUpon>
     </Compile>
+    <Compile Include="Problems\Structures\EProblems.cs" />
+    <Compile Include="Problems\Structures\Problem.cs" />
+    <Compile Include="Problems\Problem001.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormProblemSelect.resx">

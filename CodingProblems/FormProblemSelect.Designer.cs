@@ -41,6 +41,7 @@
             this.listBoxProblems.Name = "listBoxProblems";
             this.listBoxProblems.Size = new System.Drawing.Size(331, 526);
             this.listBoxProblems.TabIndex = 0;
+            this.listBoxProblems.SelectedIndexChanged += new System.EventHandler(this.listBoxProblems_SelectedIndexChanged);
             // 
             // buttonLaunchProblem
             // 
@@ -50,6 +51,7 @@
             this.buttonLaunchProblem.TabIndex = 1;
             this.buttonLaunchProblem.Text = "Launch";
             this.buttonLaunchProblem.UseVisualStyleBackColor = true;
+            this.buttonLaunchProblem.Click += new System.EventHandler(this.buttonLaunchProblem_Click);
             // 
             // textBoxDescription
             // 
