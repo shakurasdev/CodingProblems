@@ -1,5 +1,6 @@
 ﻿using CodingProblems.Problems.Structures;
 using System;
+using System.Windows.Forms;
 
 namespace CodingProblems.Problems
 {
@@ -28,7 +29,13 @@ namespace CodingProblems.Problems
 
         public override void ShowSolution()
         {
-            throw new NotImplementedException();
+            Form f = GetBasicForm();
+
+
+
+            f.ShowDialog();
         }
+
+
     }
 }
